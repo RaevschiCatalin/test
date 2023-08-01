@@ -30,7 +30,7 @@ main{
     align-items: center;
     flex-direction: column;
     padding-top: 4em;
-    padding-bottom: 4em;
+
     padding-left: 4em;
     padding-right: 4em;
 }
@@ -95,7 +95,11 @@ h1 .hilight{
     }
     .text{
         padding-top: 32em;
-        padding-right: 15em;
+        padding-right: 13em;
+
+    }
+    .text h1{
+        font-size: 4em;
     }
     .download{
         margin-top: 32em;
