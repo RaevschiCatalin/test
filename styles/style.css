@@ -58,7 +58,7 @@ h1 .header_text{
 .hover-image-first,
 .hover-image-second {
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .first:hover .hover-image-first,
@@ -86,7 +86,7 @@ h1 .header_text{
 
 @media (min-width: 768px) {
     body {
-        background-image: url(../assets/images/bg.png);h
+        background-image: url(../assets/images/bg.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
