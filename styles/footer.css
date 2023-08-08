@@ -1,29 +1,30 @@
 .footer {
-    background-color: #f0f0f0;
-    padding: 5em 5em 1em 5em;
+    padding: 3em 7em 1em 7em;
     color: #333;
     background-image: url("../assets/images/footer.png");
 }
 
 .footer-logo img {
-    width: 80px;
+    width: 7em;
     height: auto;
+    padding-right: 10em;
 }
 
 .footer-columns {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
     color: #fff;
+    padding-bottom: 4em;
 }
 
 .footer-column {
-    flex: 1 1 calc(25% - 20px);
+    flex: 1 1 calc(20% - 20px);
     margin-right: 20px;
+    font-size: 14px;
 }
 
 .footer-column h4 {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
     color: #707070;
 }
@@ -46,11 +47,12 @@
 }
 
 .social-icons li {
-    margin-right: 10px;
+    padding-right: 10px;
+
 }
 
 .social-icons img {
-    width: 30px;
+    width: 3.5em;
     height: auto;
 }
 
