@@ -1,0 +1,11 @@
+<svg id="yt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_6" data-name="Path 6" d="M9.032-4.623v-6.753L14.968-8Zm13.2-8.878a2.854,2.854,0,0,0-2.008-2.021C18.456-16,11.355-16,11.355-16s-7.1,0-8.872.478A2.854,2.854,0,0,0,.475-13.5,29.932,29.932,0,0,0,0-8,29.931,29.931,0,0,0,.475-2.5,2.854,2.854,0,0,0,2.482-.477C4.253,0,11.355,0,11.355,0s7.1,0,8.873-.477A2.854,2.854,0,0,0,22.235-2.5,29.932,29.932,0,0,0,22.71-8a29.93,29.93,0,0,0-.475-5.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Oval_Copy" data-name="Oval Copy" cx="30" cy="30" r="30" fill="#ef4e4c"/>
+  <g id="Group_3" data-name="Group 3" transform="translate(18.645 38)" clip-path="url(#clip-path)">
+    <path id="Path_5" data-name="Path 5" d="M-1-17H23.71V1H-1Z" fill="#fff"/>
+  </g>
+</svg>

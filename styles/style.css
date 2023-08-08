@@ -1,11 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+body {
+    background-image: url(../assets/images/bg_small.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.2em;
+    color: #fff;
     line-height: 1.5em;
-    min-height: 100%;
-    color: white;
+}
+nav{
+    padding-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 4em;
+    gap: 3em;
+    align-items: center;
+}
+nav img{
+    width: 6em;
+    height: auto;
+}
+main{
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+h1 .header_text{
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2em;
+}
+.container img{
+    width: 100%;
+
+}
+.first img,
+.second img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.hover-image-first,
+.hover-image-second {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.first:hover .hover-image-first,
+.second:hover .hover-image-second {
+    opacity: 1;
+    display: block;
+}
+
+
+.first,
+.second {
+    position: relative;
+}
+
+.hover-image-first,
+.hover-image-second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+    body{
+        background-image: url(../assets/images/bg.png);
+    }
+
+    nav {
+        padding-top: 3em;
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+
+    nav img {
+        width: auto;
+        height: 3em;
+    }
+
+    nav .tasty_logo {
+        width: 7em;
+        height: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        padding-left: 7em;
+        padding-right: 7em;
+        gap: 4em;
+    }
+
+    main .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    main .header_text {
+        font-size: 4em;
+        font-weight: 500;
+        line-height: 1.2em;
+        margin-bottom: 1em;
+        width: 7em;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 20em;
+        margin-left: auto;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 20em;
+    }
 
 }

@@ -1,0 +1,36 @@
+.page{
+    padding: 0 7em 3em 7em;
+}
+#page1{
+    background-image: url("../assets/bg1.png");
+    background-repeat: no-repeat;
+
+}
+.page1-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20em;
+    width: 32%;
+}
+.page1-text p{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.page1-text h1{
+    font-size: 4.3em;
+    line-height: 1.2em;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-top: 0;
+    margin: 0;
+}
+.page1-text img{
+    width: 30em;
+    height: auto;
+}
