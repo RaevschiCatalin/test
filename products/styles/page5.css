@@ -1,0 +1,41 @@
+#page5{
+    color:#182058;
+    padding: 3em 8em 3em 8em;
+}
+#page5 .text-5{
+    font-weight: 300;
+
+}
+#page5 .text-5 h6{
+    font-size: 1.1em;
+    font-weight: 200;
+}
+#page5 .text-5 h1{
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1.2em;
+    width: 30%;
+}
+#page5 .image-5 img{
+    width: 100%;
+}
+#page5 .image-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em 0 3em 0;
+}
+#page5 .buttons-row-5{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+}
+.buttons-row-5 button{
+    background-color: #ef4e4c;
+    width: 4em;
+    height: 4em;
+}
+.buttons-row-5 p{
+    width: 10%;
+}
