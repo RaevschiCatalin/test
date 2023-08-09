@@ -41,6 +41,9 @@
     width: 10%;
 }
 @media (max-width: 768px){
+    #page5{
+        padding: 5em 2em 3em 2em;
+    }
     #page5 .text-5{
         text-align: center;
 
@@ -57,11 +60,18 @@
         padding: 0;
         margin: 0;
     }
+    #page5 .image-5 a{
+        width: 100%;
+    }
     #page5 .image-5 img{
         display: none;
     }
     #page5 #news{
-        display: block
+        display: block;
+        width: 100%;
+    }
+    #page5 #news a{
+        width: 100%;
     }
     #page5 .buttons-row-6{
         display: flex;
