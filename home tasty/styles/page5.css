@@ -40,3 +40,43 @@
 .buttons-row-6 p{
     width: 10%;
 }
+@media (max-width: 768px){
+    #page5 .text-5{
+        text-align: center;
+
+    }
+    #page5 .text-5 h1{
+        width: 100%;
+        text-align: center;
+    }
+    #page5 .image-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    #page5 .image-5 img{
+        display: none;
+    }
+    #page5 #news{
+        display: block
+    }
+    #page5 .buttons-row-6{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+        gap: 0;
+    }
+    #page5 .buttons-row-6 p{
+        width: 80%;
+        text-align: center;
+    }
+    #page5 .buttons-row-6 button{
+        width: 6em;
+        height: 6em;
+    }
+}

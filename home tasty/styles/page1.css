@@ -89,3 +89,48 @@ body {
     width: 3.5em;
     height: 3.5em;
 }
+
+@media (max-width: 768px){
+    #page1{
+        padding: 0;
+        margin: 0;
+    }
+    .landing-section{
+        padding: 16em 2em 2em 2em;
+        margin: 0;
+    }
+    .right-content{
+        display: none;
+    }
+    .left-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+    .left-content .buttons-row{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+    .left-content .buttons-row #descopera{
+        display: none;
+
+    }
+    .left-content .buttons-row button{
+        width: 5em;
+        height: 5em;
+    }
+    .left-content p{
+        font-weight: 300;
+        text-align: left;
+
+    }
+    .left-content h1{
+        font-size: 3em;
+        width: 80%;
+
+    }
+}

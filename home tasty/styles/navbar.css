@@ -25,6 +25,9 @@ nav ul {
     font-weight: 300;
     cursor: pointer;
 }
+nav .dropdown{
+    display: none;
+}
 
 a {
     text-decoration: none;
@@ -66,27 +69,38 @@ button:hover {
     border: 1px solid rgba(192, 192, 192, 0.4);
     cursor: pointer;
 }
-
-/* Styles for medium device screens */
-@media (max-width: 1024px) {
-    nav {
-        padding-left: 2em; /* Reduce padding on medium screens */
-        padding-right: 2em; /* Reduce padding on medium screens */
-    }
-
-    nav ul {
-        gap: 1em; /* Reduce gap on medium screens */
-    }
+nav .mobile_nav button{
+    border: none;
 }
-
-/* Styles for small device screens */
 @media (max-width: 768px) {
     nav {
-        padding-left: 1em; /* Reduce padding on small screens */
-        padding-right: 1em; /* Reduce padding on small screens */
+        padding-left: 2em;
+        padding-right: 2em;
     }
-
+    nav .tasty_logo{
+        width: 6em;
+        height: auto;
+    }
     nav ul {
-        gap: 0.5em; /* Reduce gap on small screens */
+        display: none;
+    }
+    nav .mobile_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    nav .mobile_nav img{
+        width: 6em;
+        height: auto;
+    }
+    nav .mobile_nav button{
+        border: none;
+    }
+    nav .dropdown{
+        display: block;
+        opacity: 80%;
+        width: 2em;
+        height: 2em;
     }
 }

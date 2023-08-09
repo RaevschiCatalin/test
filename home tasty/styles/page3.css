@@ -45,3 +45,40 @@
 .buttons-row-4 p{
     width: 17%;
 }
+#kebab {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #page3 {
+        padding: 0;
+        margin: 0;
+        color: #182058;
+        display: flex;
+        flex-direction: column; /* Change back to column */
+        align-items: center;
+        text-align: center;
+    }
+
+    #page3 section {
+        padding: 2em;
+        background-color: #f5f5f5;
+        border-radius: 0;
+        width: 100%;
+        background-image: none;
+    }
+
+    #page3 .text-3 {
+        margin-bottom: 1em; /* Add margin to create spacing between image and text */
+    }
+
+    #page3 #kebab {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0;
+    }
+}
+

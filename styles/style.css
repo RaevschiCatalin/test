@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-image: url(../assets/images/bg_small.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;*/
+    background-position: center ;
+    /*background-attachment: fixed;*/
+    background-size: auto 100%;
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
@@ -13,38 +15,51 @@ body {
     line-height: 1.5em;
 }
 nav{
-    padding-top: 4em;
+    padding-top: 2em;
     display: flex;
     justify-content: space-between;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
     gap: 3em;
     align-items: center;
 }
 nav img{
-    width: 6em;
+    width: 13em;
+    height: auto;
+}
+nav .tasty_logo{
+    width: 5em;
     height: auto;
 }
 main{
-    padding-top: 4em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-top: 15em;
+    padding-left: 2em;
+    padding-right: 2em;
+
 }
-h1 .header_text{
-    font-size: 7em;
+main p{
+    padding: 0;
+    margin: 0;
+}
+main .header_text {
+    font-size: 96px;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1em;
+    width: 80%;
+    padding: 20px 0 0 0;
+    margin: 0;
 }
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    padding-top: 2em;
+    padding: 2em;
 }
 .container img{
     width: 100%;
-
+    padding: 0;
+    margin: 0;
 }
 .first img,
 .second img {
@@ -52,6 +67,8 @@ h1 .header_text{
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -71,6 +88,8 @@ h1 .header_text{
 .first,
 .second {
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .hover-image-first,
@@ -80,6 +99,8 @@ h1 .header_text{
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -87,7 +108,12 @@ h1 .header_text{
 @media (min-width: 768px) {
     body{
         background-image: url(../assets/images/bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
+
 
     nav {
         padding-top: 3em;
@@ -97,7 +123,7 @@ h1 .header_text{
 
     nav img {
         width: auto;
-        height: 3em;
+        height: 4em;
     }
 
     nav .tasty_logo {
@@ -110,6 +136,7 @@ h1 .header_text{
         flex-direction: row;
         padding-left: 7em;
         padding-right: 7em;
+        padding-top: 7em;
         gap: 4em;
     }
 
@@ -136,7 +163,8 @@ h1 .header_text{
         width: 20em;
         margin-left: auto;
     }
-
+    .container img{
+        width: 100%;}
     .text {
         display: flex;
         flex-direction: column;
