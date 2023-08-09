@@ -1,6 +1,7 @@
 .footer {
     padding: 3em 7em 1em 7em;
     color: #333;
+
     background-image: url("../assets/images/footer.png");
 }
 
@@ -18,7 +19,7 @@
 }
 
 .footer-column {
-    flex: 1 1 calc(20% - 20px);
+    flex: 1 1 calc(18% - 1.5em);
     margin-right: 20px;
     font-size: 14px;
 }
@@ -71,4 +72,5 @@
 .footer-right {
     font-weight: bold;
     color: #fff;
+    padding-right: 3em;
 }

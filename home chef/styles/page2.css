@@ -1,10 +1,8 @@
 #page2{
     background-image: url("../assets/images/bg2.png");
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    padding: 0 7em 1em 7em;
-    margin-top: 3em;
 
+    color: #FFFFFF;
+    padding: 3em 7em 0 7em;
 }
 #page2 section{
     width: 37%;

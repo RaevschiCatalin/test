@@ -4,6 +4,8 @@
 #page1{
     background-image: url("../assets/bg1.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 .page1-text{
@@ -12,7 +14,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 20em;
+    padding-top: 20em;
     width: 32%;
 }
 .page1-text p{
