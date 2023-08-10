@@ -158,12 +158,18 @@
         flex-direction: column; /* Switch to column layout */
         align-items: flex-start; /* Align items to the start of the column */
         justify-content: center;
+        padding-left: 1em;
+    }
+    .image-row a{
+        width: 100%;
     }
 
     .image-wrapper {
         flex: 0 0 100%; /* Full width for columns */
         padding-bottom: 1em; /* Adjust padding if needed */
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     #page2 .buttons-row-3 {
         align-items: center;

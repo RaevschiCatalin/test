@@ -96,8 +96,12 @@ body {
         margin: 0;
     }
     .landing-section{
-        padding: 16em 2em 2em 2em;
+        padding: 12em 2em 2em 2em;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     .right-content{
         display: none;
@@ -129,7 +133,7 @@ body {
 
     }
     .left-content h1{
-        font-size: 3em;
+        font-size: 6em;
         width: 80%;
 
     }

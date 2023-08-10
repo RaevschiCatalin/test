@@ -96,6 +96,8 @@ nav .mobile_nav button{
     }
     nav .mobile_nav button{
         border: none;
+        background: none;
+
     }
     nav .dropdown{
         display: block;
