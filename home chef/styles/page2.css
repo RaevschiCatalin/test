@@ -109,3 +109,94 @@
     width: 8em;
     padding-left: 2em;
 }
+@media (max-width: 768px) {
+    #page2 {
+        padding: 0 2em 2em 2em;
+        background-position: left top;
+        background-repeat: repeat-y ;
+    }
+    #page2 section {
+        width: 100%;
+        padding: 0 2em 0 2em;
+    }
+    #page2 section h1 {
+        font-size: 1.8em;
+        font-weight: 300;
+
+    }
+    #page2 section h6{
+        font-size: 1.1em;
+        font-weight: 400;
+        padding: 1em 0 1em 0;
+        margin: 0;
+    }
+    #page2 section p {
+        font-size: 1em;
+        line-height: 1.5em;
+        font-weight: 400;
+        padding-right: 2em;
+    }
+    #page2 section button {
+        width: 6em;
+        height: 6em;
+    }
+    #page2 .buttons-row-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+        gap: 0;
+    }
+    #page2 .buttons-row-2 p{
+        width: 80%;
+        text-align: center;
+    }
+    #page2 .buttons-row-2 button{
+        width: 6em;
+        height: 6em;
+    }
+    #page2 .page3-text h6{
+        font-size: 1em;
+        line-height: 1.5em;
+        font-weight: 400;
+    }
+    #page2 .page3-text h1{
+        font-size: 1.8em;
+        font-weight: 300;
+    }
+    .image-row {
+        flex-direction: column; /* Switch to column layout */
+        align-items: flex-start; /* Align items to the start of the column */
+        justify-content: center;
+        padding-left: 1em;
+    }
+    .image-row a{
+        width: 100%;
+    }
+
+    .image-wrapper {
+        flex: 0 0 100%; /* Full width for columns */
+        padding-bottom: 1em; /* Adjust padding if needed */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #page2 .buttons-row-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+        gap: 0;
+    }
+    #page2 .buttons-row-3 p{
+        width: 80%;
+        text-align: center;
+    }
+    #page2 .buttons-row-3 button{
+        width: 6em;
+        height: 6em;
+    }
+
+}
