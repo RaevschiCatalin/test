@@ -76,6 +76,7 @@ nav .mobile_nav button{
     nav {
         padding-left: 2em;
         padding-right: 2em;
+        padding-top: 1em;
     }
     nav .tasty_logo{
         width: 6em;
