@@ -96,7 +96,7 @@ body {
         margin: 0;
     }
     .landing-section{
-        padding: 12em 2em 2em 2em;
+        padding: 6em 2em 2em 2em;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -125,8 +125,8 @@ body {
 
     }
     .left-content .buttons-row button{
-        width: 5em;
-        height: 5em;
+        width: 6em;
+        height: 6em;
     }
     .left-content p{
         font-weight: 300;
