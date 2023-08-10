@@ -117,7 +117,8 @@ body {
         justify-content: center;
         padding: 0;
         margin: 0;
-        width: 90%;
+        width: 100%;
+        gap: 20px;
     }
     .left-content .buttons-row #descopera{
         display: none;
@@ -133,7 +134,7 @@ body {
 
     }
     .left-content h1{
-        font-size: 6em;
+        font-size: 4em;
         width: 80%;
 
     }

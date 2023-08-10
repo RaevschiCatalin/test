@@ -142,8 +142,21 @@
         width: 6em;
         height: 6em;
     }
-    #page2 section .buttons-row-2 p{
-        font-weight: 700;
+    #page2 .buttons-row-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+        gap: 0;
+    }
+    #page2 .buttons-row-2 p{
+        width: 80%;
+        text-align: center;
+    }
+    #page2 .buttons-row-2 button{
+        width: 6em;
+        height: 6em;
     }
     #page2 .page3-text h6{
         font-size: 1em;
@@ -171,14 +184,17 @@
         justify-content: center;
         align-items: center;
     }
-    #page2 .buttons-row-3 {
-        align-items: center;
+    #page2 .buttons-row-3{
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
+        padding-top: 2em;
         gap: 0;
     }
     #page2 .buttons-row-3 p{
-        font-weight: 600;
-        font-size: 1.5em;
+        width: 80%;
+        text-align: center;
     }
     #page2 .buttons-row-3 button{
         width: 6em;
