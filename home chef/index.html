@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scandia Frozen</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/page1.css">
@@ -19,10 +19,13 @@
 <body>
     <div class="page" id="page1">
         <nav>
-            <div>
+            <div class="mobile_nav">
                 <a href="./index.html">
                 <img class="tasty_logo" src="./assets/images/logo%20tasty.png" alt="tasty logo">
                 </a>
+                <button>
+                    <img class="dropdown" src="./assets/icons/hmenu.svg" alt="">
+                </button>
             </div>
             <ul>
                 <li>
@@ -67,7 +70,7 @@
                     în restaurantul tău</h1>
                 <div class="buttons-row">
                     <button class="button_down"><img src="assets/icons/arrow-down.svg"></button>
-                    <p>Descoperă
+                    <p id="descopera">Descoperă
                         produsele Tasty</p>
                     <button><img  src="assets/icons/arrow-down.svg"> </button>
                     <p>Rețetele
@@ -218,6 +221,7 @@
     <div id="page3">
         <section>
             <div class="text-3">
+                <img id="kebab" src="assets/images/kebab.png" alt="kebab">
             <h6>Alege produsele Tasty Vegan</h6>
             <h1>Alternativa ta
                 delicioasă</h1>
@@ -262,7 +266,7 @@
         </div>
         <div class="image-5">
             <a href="">
-                <img src="assets/images/5-1.png" alt="">
+                <img id="news" src="assets/images/5-1.png" alt="">
             </a>
             <a href="">
                 <img src="assets/images/5-2.png" alt="">
@@ -292,9 +296,11 @@
             <form action="">
                 <input type="email" placeholder="Aderesa de email">
             </form>
-            <button><img src="assets/icons/right_arrow.svg" alt=""></button>
-            <p>Înscrie-mă la
-                newsletter-ul Tasty</p>
+            <div class="buttons-row-6">
+                <button><img src="assets/icons/right_arrow.svg" alt=""></button>
+                <p>Înscrie-mă la
+                    newsletter-ul Tasty</p>
+            </div>
         </div>
     </div>
     <footer class="footer">

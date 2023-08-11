@@ -1,4 +1,4 @@
-.footer{
+.footer {
     padding: 3em 7em 1em 7em;
     color: #333;
     background-image: url("../assets/images/footer.png");
@@ -120,10 +120,10 @@
     }
 
     .footer-bottom {
-        flex-direction: column; /* Switch to column layout for bottom section */
-        align-items: center; /* Center content horizontally */
+        flex-direction: column;
+        align-items: center;
         margin-top: 1em;
-        font-size: 20px; /* Increase font size even more */
+        font-size: 20px;
     }
     #general, #legal{
         display: none;

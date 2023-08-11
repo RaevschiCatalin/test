@@ -1,7 +1,7 @@
 #page4{
     color:#FFFFFF;
     padding: 3em 8em 3em 8em;
-    background-color: black;
+    background-image: url("../assets/images/bg2.png");
 }
 #page4 .text-4{
     font-weight: 300;
@@ -39,4 +39,50 @@
 }
 .buttons-row-5 p{
     width: 10%;
+}
+@media (max-width: 1024px){
+    #page4{
+        padding: 1em 2em 1em 2em;
+        background-image: url("../assets/images/bg2.png");
+    }
+    #page4 .text-4{
+        text-align: center;
+
+    }
+    #page4 .text-4 h1{
+        width: 100%;
+        text-align: center;
+    }
+    #page4 .image-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #page4 .image-4 img{
+        width: 100%;
+    }
+    #page4 .image-4 a{
+        width: 100%;
+    }
+    #page4 .buttons-row-5{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+        gap: 0;
+    }
+    #page4 .buttons-row-5 p{
+        width: 80%;
+        text-align: center;
+    }
+    #page4 .buttons-row-5 button{
+        width: 6em;
+        height: 6em;
+    }
+
 }

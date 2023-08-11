@@ -1,49 +1,60 @@
+/* Page 2 */
 #page2 {
     background-image: url("../assets/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
-    height: 100vh;
+    height: auto;
     width: 100%;
-    padding: 5em 0 25em 0;
-    color: #FFFFFF;
+    padding: 5em 0 5em; /* Adjusted padding-bottom */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .top-content {
     padding: 0 7em 0 7em;
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 6em;
 }
 
 .left-content {
     flex: 1;
-
 }
-.second_col{
+
+.second_col {
     display: flex;
     flex-direction: row;
     gap: 1em;
     justify-content: space-between;
 }
-.second_col p{
+
+.second_col p {
     padding-top: 1.6em;
 }
-.left-content h1{
+
+.left-content h1 {
     width: 8em;
     line-height: 1.2em;
     font-weight: 400;
     font-size: 3.6em;
 }
-.left-content p{
+
+.left-content p {
     width: 30em;
 }
+
 .right-content {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .video {
@@ -56,6 +67,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+
 }
 
 .gallery img {
@@ -71,8 +83,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 7em 0 7em;
+    padding: 0 3em;
     z-index: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
 }
 
 .column {
@@ -81,7 +96,6 @@
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-
 }
 
 .column h1, .column h6 {
@@ -89,7 +103,8 @@
     padding: 0;
     line-height: 1.5em;
 }
-.column h6{
+
+.column h6 {
     font-size: 1em;
     font-weight: 400;
     color: #707070;
@@ -97,4 +112,68 @@
 
 .column p {
     margin: 10px 0;
+}
+
+#right-content {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    #page2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 3em;
+        width: 100vw;
+        height: auto;
+        background-position: center;
+    }
+
+    #page2 .top-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2em 0 2em;
+    }
+
+    #page2 .top-content .left-content h1{
+        font-size: 2em;
+        width: 75vw;
+        text-align: center;
+        justify-self: center;
+    }
+    #page2 .top-content .left-content p{
+        width: 75vw;
+        text-align: center;
+        justify-self: center;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    #right-content {
+        display: block;
+        padding: 1em 0;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
+    #right-content .hid{
+        display: none;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center the columns vertically */
+        padding: 2em 0;
+    }
+
+    .column {
+        width: 100%;
+        margin: 1em 0;
+        text-align: center; /* Center the content within columns */
+        padding-right: 1em; /* Add padding to the right */
+    }
 }

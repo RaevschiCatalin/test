@@ -1,7 +1,7 @@
 #page3{
-    padding: 3em 5em 2em 5em;
+    padding: 3em 5em 3em 5em;
     margin: 0;
-    background-image: url("../assets/images/bg-5.png");
+    background-image: url("../assets/images/bg2.png");
 }
 #page3 section{
     background-image: url("../assets/images/kebab.png");
@@ -46,3 +46,60 @@
 .buttons-row-4 p{
     width: 17%;
 }
+#kebab {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    #page3 {
+        padding: 0;
+        margin: 0;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column; /* Change back to column */
+        align-items: center;
+        text-align: center;
+        background-image: url("../assets/images/bg2.png");
+    }
+
+    #page3 section {
+        padding: 1em;
+        border-radius: 0;
+        width: 100%;
+        background-image: none;
+    }
+
+    #page3 .text-3 {
+        padding: 0;
+    }
+    #page3 .text-3 h1 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    #page3 #kebab {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0;
+    }
+    #page3 .buttons-row-4{
+        display: flex;
+        flex-direction: row;
+        padding-top: 2em;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #page3 .buttons-row-4 button {
+        width: 6em;
+        height: 6em;
+        margin-right: 1em;
+        background-color: #ef4e4c;
+    }
+    #page3 .buttons-row-4 p{
+        width: 60%;
+        margin: 0;
+    }
+}
+

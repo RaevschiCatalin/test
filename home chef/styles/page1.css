@@ -1,9 +1,16 @@
 
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 #page1{
     background-image: url('../assets/images/bg.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     padding-bottom: 4em;
 }
 
@@ -30,14 +37,9 @@
     margin: 0;
     padding: 0;
     line-height: 1.2em;
-    width: 100%;
 }
-.left-content {
-    width: 62%;
-    padding: 20px;
-}
-.right-content{
-    width: 38%;
+.left-content, .right-content {
+    width: 48%;
     padding: 20px;
 }
 .buttons-row{
@@ -69,15 +71,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-}
-.right-content p{
-    font-size: 2em;
-    font-weight: 600;
-    margin: 0;
-    padding-bottom: 1em;
-    width: 60%;
-    line-height: 1.2em;
-    text-align: right;
+
 }
 .button_down{
     transform: rotate(90deg);
@@ -94,4 +88,59 @@
 #page1 .social-icon img{
     width: 3.5em;
     height: 3.5em;
+}
+
+@media (max-width: 1024px){
+    #page1{
+        padding: 0;
+        margin: 0;
+    }
+    .landing-section{
+        padding: 6em 2em 2em 2em;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .right-content{
+        display: none;
+    }
+    .left-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+    #page1 .left-content h1, #page1 .left-content p{
+
+
+
+    }
+    .left-content .buttons-row{
+        align-items: center;
+
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        gap: 20px;
+    }
+    .left-content .buttons-row #descopera{
+        display: none;
+
+    }
+    .left-content .buttons-row button{
+        width: 5em;
+        height: 5em;
+    }
+    .left-content p{
+        font-weight: 300;
+        text-align: left;
+
+    }
+    .left-content h1{
+        font-size: 4em;
+        width: 80%;
+
+    }
 }

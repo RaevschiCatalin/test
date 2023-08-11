@@ -83,3 +83,49 @@
     font-size: 3.5em;
     font-weight: 400;
 }
+@media (max-width: 1024px) {
+    #page4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5em 0;
+    }
+
+    .image-container {
+        padding: 2em 0;
+        width: 80vw;
+    }
+
+    .image-row {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        flex: 1 1 100%;
+        margin-bottom: 2em;
+        padding-bottom: 0;
+    }
+
+    .buttons-row-4 {
+        padding: 2em 0;
+        justify-content: center;
+    }
+
+    /* Updated styles for text */
+    .text-4 {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        width: 75vw;
+    }
+
+    .text-4 h1 {
+        font-size: 2.5em;
+        font-weight: 400;
+        width: 60vw;
+        padding-right: 3em;
+    }
+    .text-4 p{
+        width: 75vw;
+    }
+}
