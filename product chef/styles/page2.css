@@ -5,7 +5,7 @@
     background-size: cover;
     height: auto;
     width: 100%;
-    padding: 5em 0 5em; /* Adjusted padding-bottom */
+    padding: 0; /* Adjusted padding-bottom */
     color: #ffffff;
     display: flex;
     flex-direction: column;

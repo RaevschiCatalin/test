@@ -5,13 +5,13 @@
 #page1{
     background-image: url("../assets/bg1.png");
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 .page1-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 5em;
+    margin-bottom: 0;
     margin-top: 3em;
 }
 .image-1{
@@ -58,7 +58,7 @@
         margin: 0;
     }
     #page1{
-        background-position: center ;
+        background-position: center;
     }
     .page1-content{
         flex-direction: column;
