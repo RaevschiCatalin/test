@@ -79,6 +79,7 @@ nav .mobile_nav button{
 @media (max-width: 1024px) {
     nav {
         padding: 1em 0 0 0;
+        margin: 0;
     }
     nav .tasty_logo{
         width: 5em;
