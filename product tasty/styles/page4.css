@@ -119,5 +119,9 @@
     .text-4 h1 {
         font-size: 3.5em;
         font-weight: 400;
+        width: 75vw;
+    }
+    .text-4 p{
+        width: 75vw;
     }
 }
