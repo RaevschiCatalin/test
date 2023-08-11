@@ -5,7 +5,8 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.2em;
     line-height: 1.5em;
-
+    min-width: 100vw;
+    min-height: 100vh;
     color: white;
     overflow-x: hidden;
 }

@@ -3,9 +3,7 @@
 body {
     background-image: url(../assets/images/bg_small.png);
     background-repeat: no-repeat;
-    /*background-size: cover;*/
     background-position: center ;
-    /*background-attachment: fixed;*/
     background-size: auto 100%;
     margin: 0;
     padding: 0;
@@ -14,6 +12,7 @@ body {
     color: #fff;
     line-height: 1.5em;
     overflow-x: hidden;
+    min-width: 100vw;
 }
 nav{
     padding-top: 2em;
@@ -169,7 +168,8 @@ main .header_text {
         margin-left: auto;
     }
     .container img{
-        width: 100%;}
+        width: 100%;
+    }
     .text {
         display: flex;
         flex-direction: column;
