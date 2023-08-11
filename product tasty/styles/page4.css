@@ -112,7 +112,7 @@
 
     /* Updated styles for text */
     .text-4 {
-        padding: 0 3em; /* Add 3em padding on sides */
+        padding: 0; /* Add 3em padding on sides */
         text-align: left; /* Align text on the left */
     }
 
