@@ -137,6 +137,10 @@
         text-align: center;
 
     }
+    .left-content h1{
+        font-size: 2em;
+        width: 100%;
+    }
 
     .right-content {
         display: none;
