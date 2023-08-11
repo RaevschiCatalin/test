@@ -131,6 +131,8 @@
     #page2 .top-content {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding: 0 2em 0 2em;
     }
 
     .left-content, .right-content {
@@ -139,7 +141,7 @@
     }
     .left-content h1{
         font-size: 2em;
-        width: 100%;
+        width: 75%;
     }
 
     .right-content {
