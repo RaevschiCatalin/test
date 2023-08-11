@@ -1,15 +1,21 @@
 /* Common styles for all screens */
 nav {
     padding-top: 3em;
+    padding-left: 0;
+    padding-right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center; /* Align items vertically in the center */
     font-weight: bold;
+
+
 }
 
-nav .tasty_logo {
+nav a .tasty_logo {
     width: 7em;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul {
@@ -22,6 +28,9 @@ nav ul {
     font-size: 0.8em;
     font-weight: 300;
     cursor: pointer;
+}
+nav .dropdown{
+    display: none;
 }
 
 a {
@@ -64,32 +73,40 @@ button:hover {
     border: 1px solid rgba(192, 192, 192, 0.4);
     cursor: pointer;
 }
-#produse {
-        text-decoration-line: underline;
-        text-decoration-thickness: 1.6px;
-        text-underline-offset: 10px;
-        text-decoration-skip-ink: none;
-    }
-
+nav .mobile_nav button{
+    border: none;
+}
 @media (max-width: 1024px) {
     nav {
-        padding-left: 2em;
-        padding-right: 2em; /
+        padding: 1em 0 0 0;
     }
-
+    nav .tasty_logo{
+        width: 5em;
+        height: auto;
+        padding: 0;
+    }
     nav ul {
-        gap: 1em;
+        display: none;
     }
-}
-
-
-@media (max-width: 768px) {
-    nav {
-        padding-left: 1em;
-        padding-right: 1em;
+    nav .mobile_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
     }
+    nav .mobile_nav img{
+        width: 5em;
+        height: auto;
+    }
+    nav .mobile_nav button{
+        border: none;
+        background: none;
 
-    nav ul {
-        gap: 0.5em;
+    }
+    nav .dropdown{
+        display: block;
+        opacity: 80%;
+        width: 2em;
+        height: 2em;
     }
 }

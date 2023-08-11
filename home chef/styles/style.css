@@ -7,6 +7,6 @@ body{
     line-height: 1.5em;
     min-height: 100%;
     color: white;
-
+    overflow-x: hidden;
 
 }

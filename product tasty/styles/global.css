@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+
+    /* font sizes */
+    --font-size-base: 1rem;
+    --font-size-xl: 1.25rem;
+    --font-size-17xl: 2.25rem;
+    --font-size-111xl: 8.13rem;
+    --font-size-11xl: 1.88rem;
+    --font-size-41xl: 3.75rem;
+    --font-size-61xl: 5rem;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslateblue: #182058;
+
+    /* Gaps */
+    --gap-xl: 1.25rem;
+    --gap-10xs: 0.19rem;
+}

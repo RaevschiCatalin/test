@@ -39,7 +39,7 @@
 .buttons-row-5 p{
     width: 10%;
 }
-@media (max-width: 768px){
+@media (max-width: 1024px){
     #page4{
         padding: 1em 2em 1em 2em;
     }

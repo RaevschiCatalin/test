@@ -40,7 +40,7 @@
 .buttons-row-6 p{
     width: 10%;
 }
-@media (max-width: 768px){
+@media (max-width: 1024px){
     #page5{
         padding: 5em 2em 3em 2em;
     }

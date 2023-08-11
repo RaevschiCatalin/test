@@ -39,3 +39,28 @@
 .buttons-row-5 p{
     width: 10%;
 }
+@media (max-width: 1024px) {
+    #page5 {
+        padding: 3em 2em; /* Adjust padding for smaller screens */
+    }
+
+    #page5 .text-5 h1 {
+        width: 100%; /* Expand the width of the heading */
+    }
+
+    #page5 .image-5 {
+        flex-direction: column; /* Stack the images vertically */
+        align-items: center; /* Center-align images */
+        padding: 2em 0; /* Adjust padding */
+    }
+
+    #page5 .buttons-row-5 {
+        flex-direction: column; /* Stack the buttons and text vertically */
+        align-items: center; /* Center-align buttons and text */
+        padding: 2em 0; /* Adjust padding */
+    }
+
+    #page5 .buttons-row-5 p {
+        width: auto; /* Let the text take full width */
+    }
+}

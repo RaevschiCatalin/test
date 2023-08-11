@@ -111,7 +111,7 @@
     width: 8em;
     padding-left: 2em;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #page2 {
         padding: 0 2em 2em 2em;
         background-position: left top;

@@ -7,6 +7,7 @@ nav {
     justify-content: space-between;
     align-items: center; /* Align items vertically in the center */
     font-weight: bold;
+    
 }
 
 nav .tasty_logo {
@@ -72,14 +73,13 @@ button:hover {
 nav .mobile_nav button{
     border: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     nav {
         padding-left: 2em;
         padding-right: 2em;
-        padding-top: 1em;
     }
     nav .tasty_logo{
-        width: 5em;
+        width: 6em;
         height: auto;
     }
     nav ul {

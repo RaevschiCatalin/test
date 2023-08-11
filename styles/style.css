@@ -13,6 +13,7 @@ body {
     font-size: 1.2em;
     color: #fff;
     line-height: 1.5em;
+    overflow-x: hidden;
 }
 nav{
     padding-top: 2em;
@@ -105,7 +106,7 @@ main .header_text {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     body{
         background-image: url(../assets/images/bg.png);
         background-position: center;
@@ -143,7 +144,10 @@ main .header_text {
     main .text {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+
+    }
+    main .text h1, main .text p{
+        justify-content: center;
     }
 
     main .header_text {

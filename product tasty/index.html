@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scandia Frozen</title>
     <link rel="stylesheet" href="./styles/navbar.css">
@@ -15,15 +16,19 @@
     <link rel="stylesheet" href="./styles/page5.css">
     <link rel="stylesheet" href="./styles/page6.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/global.css">
 </head>
 <body>
 
     <div class="page" id="page1">
         <nav>
-            <div>
+            <div class="mobile_nav">
                 <a href="../home%20tasty/index.html">
                 <img class="tasty_logo" src="./assets/logo%20tasty.png" alt="tasty logo">
                 </a>
+                <button>
+                    <img class="dropdown" src="./assets/hmenu.svg" alt="">
+                </button>
             </div>
             <ul>
                 <li>
@@ -60,11 +65,22 @@
                 </li>
             </ul>
         </nav>
-        <div class="page1-text">
-            <p>Ca la mama acasa</p>
-            <h1>Cheeseburger
-                de Vită</h1>
-            <img src="./assets/image-1.png" alt="">
+        <div class="page1-content">
+            <div class="page1-text">
+                <p>Ca la mama acasa</p>
+                <h1>Cheeseburger
+                    de Vită</h1>
+                <img src="./assets/image-1.png" alt="">
+
+            </div>
+            <div class="image-1">
+                <div>
+                <img src="assets/Cheeseburger-de-vita.png" alt="">
+                </div>
+                <div>
+                    <button id="button1_mob"><img src="./assets/right_arrow.svg" alt=""> </button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="page" id="page2">
@@ -72,6 +88,16 @@
             <div class="left-content">
                 <h6>Produsele Tasty</h6>
                 <h1>Descoperă Cheeseburger de Vită</h1>
+                <div id="right-content">
+                    <img class="video" src="./assets/video.png" alt="video">
+                    <div class="gallery">
+                        <img src="./assets/2-1.png" alt="Image 1">
+                        <img src="./assets/2-2.png" alt="Image 2">
+                        <img src="./assets/2-3.png" alt="Image 3">
+                        <img src="./assets/2-4.png" alt="Image 4">
+                        <div class="arrow"><img src="./assets/arrow.png" alt="arrow"></div>
+                    </div>
+                </div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                     <br><br>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
@@ -209,9 +235,11 @@
             <form action="">
                 <input type="email" placeholder="Aderesa de email">
             </form>
+            <div class="buttons-row-6">
             <button><img src="./assets/right_arrow.svg" alt=""></button>
             <p>Înscrie-mă la
                 newsletter-ul Tasty</p>
+            </div>
         </div>
     </div>
     <footer class="footer">
