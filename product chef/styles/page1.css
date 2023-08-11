@@ -58,7 +58,7 @@
         margin: 0;
     }
     #page1{
-        background-position: center right;
+        background-position: center ;
     }
     .page1-content{
         flex-direction: column;
