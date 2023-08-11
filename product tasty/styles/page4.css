@@ -112,14 +112,16 @@
 
     /* Updated styles for text */
     .text-4 {
-        padding: 0; /* Add 3em padding on sides */
-        text-align: left; /* Align text on the left */
+        padding: 0;
+        margin: 0;
+        text-align: left;
     }
 
     .text-4 h1 {
         font-size: 3.5em;
         font-weight: 400;
         width: 60vw;
+        padding-right: 3em;
     }
     .text-4 p{
         width: 75vw;
