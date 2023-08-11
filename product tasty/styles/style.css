@@ -5,14 +5,13 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1.2em;
     line-height: 1.5em;
-    min-height: 100vh;
+
     color: white;
     overflow-x: hidden;
 }
 @media (max-width: 768px){
     body{
-
-        min-height: 100vh;
+        overflow-x: hidden;
     }
     button{
         width: 5em;
