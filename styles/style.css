@@ -38,14 +38,18 @@ main{
 
 }
 main p{
+    line-height: 1em;
     padding: 0;
     margin: 0;
+}
+main .text{
+    width: 45vw;
 }
 main .header_text {
     font-size: 96px;
     font-weight: 500;
     line-height: 1.5em;
-    width: 80%;
+    width: 100vw;
     padding: 20px 0 0 0;
     margin: 0;
 }
