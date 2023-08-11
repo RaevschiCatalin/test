@@ -135,10 +135,6 @@
         padding: 0 2em 0 2em;
     }
 
-    .left-content, .right-content {
-        text-align: center;
-
-    }
     #page2 .top-content .left-content h1{
         font-size: 2em;
         width: 75%;
@@ -158,7 +154,7 @@
     #right-content {
         display: block;
         padding: 1em 0;
-        width: 100%;
+        width: 80vw;
         justify-content: center;
         align-items: center;
     }
