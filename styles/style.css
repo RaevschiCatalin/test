@@ -149,9 +149,13 @@ main .header_text {
         flex-direction: column;
 
     }
-    main .text h1, main .text p{
+    main .text h1{
         justify-content: center;
         font-size: 3.5em;
+    }
+    main .text p{
+        justify-content: center;
+        font-size: 1.5em;
     }
 
     main .header_text {
