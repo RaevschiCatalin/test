@@ -148,10 +148,11 @@ main .header_text {
     }
     main .text h1, main .text p{
         justify-content: center;
+        font-size: 3.5em;
     }
 
     main .header_text {
-        font-size: 4em;
+        font-size: 3.5em;
         font-weight: 500;
         line-height: 1.2em;
         margin-bottom: 1em;
