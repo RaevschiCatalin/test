@@ -55,6 +55,7 @@
 @media (max-width: 1024px){
     .page{
         padding: 0 2em 0 2em;
+        margin: 0;
     }
     #page1{
         background-position: center;
@@ -66,7 +67,7 @@
     }
     .page1-text{
         width: 10em;
-        margin: 2em 3em 2em 3em;
+        padding: 2em 3em 2em 3em;
         align-items: center;
         text-align: left;
     }
