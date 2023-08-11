@@ -58,7 +58,7 @@
         margin: 0;
     }
     #page1{
-        background-position: center;
+        background-position: center right;
     }
     .page1-content{
         flex-direction: column;
@@ -72,8 +72,8 @@
         text-align: left;
     }
     .page1-text h1{
-        font-size: 3.4em;
-        line-height: 1.2em;
+        font-size: 3em;
+        line-height: 1em;
         font-weight: 400;
         padding-bottom: 1em;
         padding-top: 0;
