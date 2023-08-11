@@ -139,9 +139,16 @@
         text-align: center;
 
     }
-    .left-content h1{
+    #page2 .top-content .left-content h1{
         font-size: 2em;
         width: 75%;
+        text-align: center;
+        justify-self: center;
+    }
+    #page2 .top-content .left-content p{
+        width: 75vw;
+        text-align: center;
+        justify-self: center;
     }
 
     .right-content {
