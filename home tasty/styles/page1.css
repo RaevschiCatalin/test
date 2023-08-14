@@ -118,11 +118,12 @@ body {
         margin: 0;
 
     }
-    #page1 .left-content h1, #page1 .left-content p{
-
-
-
+    .left-content h1{
+        font-size: 3em;
+        width: 95%;
+        text-align: left;
     }
+
     .left-content .buttons-row{
         align-items: center;
 
@@ -142,11 +143,6 @@ body {
     .left-content p{
         font-weight: 300;
         text-align: left;
-
-    }
-    .left-content h1{
-        font-size: 4em;
-        width: 80%;
 
     }
 }
