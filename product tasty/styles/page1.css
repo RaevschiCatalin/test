@@ -1,27 +1,29 @@
-.page{
+.page {
     padding: 0 6em 0 6em;
-
 }
-#page1{
+
+#page1 {
     background-image: url("../assets/bg1.png");
     background-repeat: no-repeat;
-
 }
-.page1-content{
+
+.page1-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5em;
     margin-top: 3em;
 }
-.image-1{
+
+.image-1 {
     width: auto;
     height: auto;
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 10em;
 }
-.page1-text{
+
+.page1-text {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -30,14 +32,16 @@
     margin-top: 13em;
     width: 32%;
 }
-.page1-text p{
+
+.page1-text p {
     padding: 0;
     margin: 0;
     font-size: 1em;
     line-height: 1.5em;
     font-weight: 400;
 }
-.page1-text h1{
+
+.page1-text h1 {
     font-size: 4.3em;
     line-height: 1.2em;
     font-weight: 400;
@@ -45,33 +49,40 @@
     padding-top: 0;
     margin: 0;
 }
-.page1-text img{
+
+.page1-text img {
     width: 30em;
     height: auto;
 }
+
 #button1_mob {
     display: none;
 }
-@media (max-width: 1024px){
-    .page{
+
+@media (max-width: 1024px) {
+    .page {
         padding: 0 2em 0 2em;
         margin: 0;
     }
-    #page1{
+
+    #page1 {
         background-position: center;
     }
-    .page1-content{
+
+    .page1-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .page1-text{
-        width: 10em;
+
+    .page1-text {
+        width: 100%;
         padding: 0 2em 2em 2em;
         align-items: center;
-        text-align: left;
+        text-align: center;
     }
-    .page1-text h1{
+
+    .page1-text h1 {
         font-size: 2.5em;
         line-height: 1.2em;
         font-weight: 400;
@@ -80,8 +91,7 @@
         margin: 0;
     }
 
-
-    .image-1{
+    .image-1 {
         padding: 0 0 2em 0;
         display: flex;
         flex-direction: row;
@@ -90,27 +100,27 @@
         justify-content: center;
         align-items: flex-end;
         gap: 3em;
-
     }
-    .image-1 img{
+
+    .image-1 img {
         width: 10em;
         height: auto;
     }
-    .page1-text img{
+
+    .page1-text img {
         display: none;
     }
-    .image-1 button img{
+
+    .image-1 button img {
         width: 2em;
         height: 2em;
-        rotate: 90deg;
-
+        transform: rotate(90deg);
     }
 
-    #button1_mob{
+    #button1_mob {
         display: block;
         background-color: #ef4e4c;
         width: 6em;
         height: 6em;
-
     }
 }
