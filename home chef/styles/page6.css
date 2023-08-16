@@ -75,7 +75,7 @@
     }
     #page6 .text-6 h1{
         width: 100%;
-        font-size: 2em;
+        font-size: 1.8em;
         padding: 0;
         text-align: center;
     }
@@ -88,7 +88,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         gap: 1em;
     }
     .newsletter p{
@@ -105,11 +104,11 @@
         gap: 1em;
     }
     #page6 .buttons-row-6 p{
-        width: 80%;
+        width: 65%;
         text-align: center;
     }
     #page6 .buttons-row-6 button{
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
 }

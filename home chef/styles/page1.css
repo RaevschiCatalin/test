@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Change this line */
+    justify-content: flex-end;
     position: relative;
     box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .left-content h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -116,7 +116,7 @@ body {
         margin: 0;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
 
     }
 
@@ -157,7 +157,7 @@ body {
     }
 
     .left-content h1 {
-        font-size: 2.8em;
+        font-size: 2.4em;
         width: 80%;
 
     }

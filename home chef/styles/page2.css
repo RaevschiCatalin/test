@@ -8,16 +8,16 @@
 #page2 section{
     width: 37%;
     padding-top: 5em;
-    padding-bottom: 10em;
+    padding-bottom: 2em;
 }
 #page2 h1{
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }
 #page2 p{
-    line-height: 1.6em;
+    line-height: 1.2em;
     color: #FFFFFF;
     font-size: 16px;
 }
@@ -39,8 +39,27 @@
 #page2 .buttons-row-2 p{
     width: 8em;
 }
+#page2 .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#page2 .right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+
+}
+#page2 .right-section img{
+    width: 6em;
+    padding-right: 2em;
+}
 .page3-text{
-    padding-top: 10em;
+    padding-top: 3em;
 
 }
 .image-container {
@@ -112,6 +131,20 @@
     padding-left: 2em;
 }
 @media (max-width: 1024px) {
+    #page2 .section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #page2 section .right-section{
+        justify-content: center;
+        align-items: center;
+    }
+    #page2 .right-section img{
+        width: 33%;
+
+    }
     #page2 {
         padding: 0 2em 2em 2em;
         background-position: left top;
@@ -138,10 +171,6 @@
         font-weight: 400;
         padding-right: 2em;
     }
-    #page2 section button {
-        width: 6em;
-        height: 6em;
-    }
     #page2 .buttons-row-2{
         display: flex;
         flex-direction: row;
@@ -151,12 +180,12 @@
         gap: 0;
     }
     #page2 .buttons-row-2 p{
-        width: 80%;
+        width: 65%;
         text-align: center;
     }
     #page2 .buttons-row-2 button{
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
     #page2 .page3-text h6{
         font-size: 1em;
@@ -193,12 +222,12 @@
         gap: 0;
     }
     #page2 .buttons-row-3 p{
-        width: 80%;
+        width: 65%;
         text-align: center;
     }
     #page2 .buttons-row-3 button{
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
 
 }

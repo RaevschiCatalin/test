@@ -25,6 +25,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 3em 0 3em 0;
+    gap: 1em;
 }
 #page5 .buttons-row-6{
     display: flex;
@@ -83,11 +84,11 @@
         gap: 0;
     }
     #page5 .buttons-row-6 p{
-        width: 80%;
+        width: 65%;
         text-align: center;
     }
     #page5 .buttons-row-6 button{
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
 }
