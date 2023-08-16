@@ -90,11 +90,10 @@
     #page4 {
         background-position: center;
         background-repeat: repeat-y;
-
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5em 0;
+        padding: 0;
     }
 
     .image-container {
@@ -117,12 +116,11 @@
         justify-content: center;
     }
 
-    /* Updated styles for text */
     .text-4 {
         padding: 0;
         margin: 0;
         text-align: left;
-        width: 75vw;
+        width: 90vw;
     }
 
     .text-4 h1 {
@@ -132,7 +130,5 @@
         line-height: 1em;
         padding-right: 3em;
     }
-    .text-4 p{
-        width: 75vw;
-    }
+
 }
