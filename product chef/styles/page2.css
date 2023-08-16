@@ -2,12 +2,11 @@
 #page2 {
     background-image: url("../assets/bg2.png");
     background-size: cover;
-
     background-position: center;
     min-height: 100vh;
     height: auto;
     width: 100%;
-    padding: 0; /* Adjusted padding-bottom */
+    padding: 0;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -19,7 +18,7 @@
 .top-content {
     padding: 0;
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;

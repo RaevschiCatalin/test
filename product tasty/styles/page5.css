@@ -17,7 +17,7 @@
     width: 30%;
 }
 #page5 .image-5 img{
-    width: 100%;
+    width: 95%;
 }
 #page5 .image-5{
     display: flex;
@@ -37,7 +37,7 @@
     height: 4em;
 }
 .buttons-row-5 p{
-    width: 10%;
+    width: 25%;
 }
 @media (max-width: 1024px) {
     #page5 {
@@ -46,6 +46,7 @@
 
     #page5 .text-5 h1 {
         width: 100%; /* Expand the width of the heading */
+        font-size: 2em;
     }
 
     #page5 .image-5 {
@@ -53,14 +54,21 @@
         align-items: center; /* Center-align images */
         padding: 2em 0; /* Adjust padding */
     }
+    #page5 .image-5 img{
+        width: 90%;
+    }
 
-    #page5 .buttons-row-5 {
+    #page5 .buttons-row-6 {
         flex-direction: column; /* Stack the buttons and text vertically */
         align-items: center; /* Center-align buttons and text */
         padding: 2em 0; /* Adjust padding */
     }
+    #page5 .buttons-row-6 button{
+        width: 5em;
+        height: 5em;
+    }
 
-    #page5 .buttons-row-5 p {
-        width: auto; /* Let the text take full width */
+    #page5 .buttons-row-6 p {
+        width: 65%; /* Let the text take full width */
     }
 }

@@ -47,6 +47,7 @@
 
     #page6 .text-6 h1 {
         width: 100%; /* Expand the width of the heading */
+        font-size: 2em;
     }
 
     #page6 .newsletter {
@@ -70,15 +71,17 @@
         padding: 2em 0; /* Adjust padding */
     }
 
-    #page6 .buttons-row-6 button,
-    #page6 .buttons-row-6 p {
+    #page6 .buttons-row-6 button{
         width: auto; /* Allow button and paragraph to take their natural widths */
         margin: 0; /* Remove any default margins */
     }
+    #page6 .buttons-row-6 p {
+        width:65%;
+    }
 
     #page6 .buttons-row-6 button {
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
 
     #page6 .buttons-row-5 button,

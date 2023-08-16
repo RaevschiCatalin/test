@@ -5,6 +5,9 @@
 #page1 {
     background-image: url("../assets/bg1.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .page1-content {
@@ -22,6 +25,10 @@
     align-items: flex-start;
     padding-top: 10em;
 }
+.image-1 img{
+    width: 15em;
+    height: auto;
+}
 
 .page1-text {
     display: flex;
@@ -29,8 +36,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 13em;
-    width: 32%;
+    margin-top: 10em;
+    width: 25%;
 }
 
 .page1-text p {
@@ -42,7 +49,7 @@
 }
 
 .page1-text h1 {
-    font-size: 4.3em;
+    font-size: 4em;
     line-height: 1.2em;
     font-weight: 400;
     padding-bottom: 1em;
