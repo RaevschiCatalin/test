@@ -14,10 +14,10 @@
     font-size: 2.5em;
     font-weight: 400;
     line-height: 1.2em;
-    width: 30%;
+    width: 45%;
 }
 #page4 .image-4 img{
-    width: 100%;
+    width: 95%;
 }
 #page4 .image-4{
     display: flex;
@@ -37,7 +37,7 @@
     height: 4em;
 }
 .buttons-row-5 p{
-    width: 10%;
+    width: 25%;
 }
 @media (max-width: 1024px){
     #page4{
@@ -50,21 +50,22 @@
     #page4 .text-4 h1{
         width: 100%;
         text-align: center;
+        font-size: 2em;
     }
     #page4 .image-4{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 95%;
         padding: 0;
         margin: 0;
     }
     #page4 .image-4 img{
-        width: 100%;
+        width: 95%;
     }
     #page4 .image-4 a{
-        width: 100%;
+        width: 95%;
     }
     #page4 .buttons-row-5{
         display: flex;
@@ -75,12 +76,12 @@
         gap: 0;
     }
     #page4 .buttons-row-5 p{
-        width: 80%;
+        width: 65%;
         text-align: center;
     }
     #page4 .buttons-row-5 button{
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
     }
 
 }

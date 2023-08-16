@@ -14,6 +14,10 @@
     margin-bottom: 0;
     margin-top: 3em;
 }
+.image-1 img{
+    width: 15em;
+    height: auto;
+}
 .image-1{
     width: auto;
     height: auto;
@@ -46,8 +50,9 @@
     margin: 0;
 }
 .page1-text img{
-    width: 30em;
+    width: 25em;
     height: auto;
+    padding-bottom: 1em;
 }
 #button1_mob {
     display: none;
@@ -59,6 +64,10 @@
     }
     #page1{
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        min-height: 100vh;
     }
     .page1-content{
         flex-direction: column;
@@ -66,10 +75,10 @@
         align-items: center;
     }
     .page1-text{
-        width: 10em;
+        width: 15em;
         padding: 0 2em 2em 2em;
         align-items: center;
-        text-align: left;
+        text-align: center;
     }
     .page1-text h1{
         font-size: 3em;

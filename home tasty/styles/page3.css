@@ -27,7 +27,7 @@
     font-size: 2.5em;
     font-weight: 600;
     line-height: 1.5em;
-    width: 30%;
+    width: 45%;
 }
 .buttons-row-4{
     padding-left: 6em;
@@ -86,13 +86,13 @@
     #page3 .buttons-row-4{
         display: flex;
         flex-direction: row;
-        padding-top: 2em;
-        justify-content: flex-start;
+        padding:0;
+        justify-content: center;
         align-items: center;
     }
     #page3 .buttons-row-4 button {
-        width: 6em;
-        height: 6em;
+        width: 5em;
+        height: 5em;
         margin-right: 1em;
         background-color: #ef4e4c;
     }
