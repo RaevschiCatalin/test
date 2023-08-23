@@ -57,8 +57,8 @@
 }
 
 .image-wrapper .hover-image {
-    width: 4em;
-    height: 4em;
+    width: 8em;
+    height: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
