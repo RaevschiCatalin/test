@@ -96,24 +96,27 @@ nav .mobile_nav button{
         background-color: rgba(0, 0, 0);
         width: 100%;
         min-height: 100vh;
-        z-index: 1000;
+        z-index: 1;
         padding: 7em 0;
-    }
+
+    }nav .mobile_nav button{
+         border: none;
+         background: none;
+         z-index: 999;
+     }
+    nav .mobile_nav img{
+         width: 5em;
+         height: auto;
+         z-index: 999;
+     }
     nav .mobile_nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
     }
-    nav .mobile_nav img{
-        width: 5em;
-        height: auto;
-    }
-    nav .mobile_nav button{
-        border: none;
-        background: none;
 
-    }
+
     nav .dropdown{
         display: block;
         opacity: 80%;

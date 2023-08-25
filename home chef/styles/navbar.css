@@ -85,6 +85,28 @@ nav .mobile_nav button{
     nav ul {
         display: none;
     }
+    nav ul.active{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0);
+        width: 100%;
+        min-height: 100vh;
+        z-index: 1;
+        padding: 7em 0;
+
+    }nav .mobile_nav button{
+         border: none;
+         background: none;
+         z-index: 999;
+     }
+    nav .mobile_nav img{
+        width: 5em;
+        height: auto;
+        z-index: 999;
+    }
     nav .mobile_nav{
         display: flex;
         flex-direction: row;
